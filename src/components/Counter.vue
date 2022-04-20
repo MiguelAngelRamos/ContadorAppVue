@@ -29,11 +29,11 @@ export default {
   },
   methods: {
     incrementar() {
-      console.log('aumentar contador');
+      // console.log('aumentar contador');
       this.contador++;
     },
     disminuir() {
-      console.log('disminuir contador');
+      // console.log('disminuir contador');
       this.contador--;
     }
   },
