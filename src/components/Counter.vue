@@ -1,8 +1,7 @@
 <template>
   <h2>{{customTitle}}</h2>
-  <p>{{ nombre }}</p>
   <p>{{contador }} <sup>2</sup> = {{ squareCounter }}</p>
-  <p>Vue js es un excelente framework</p>
+  <p data-testid="counter">{{ contador }}</p>
   <div>
     <button class="btn btn-success mx-2" @click="incrementar">+1</button>
     <button class="btn btn-danger" @click="disminuir">-1</button>
@@ -26,7 +25,6 @@ export default {
   data() {
     return {
       contador : this.start,
-      nombre : 'Miguel'
     }
   },
   methods: {

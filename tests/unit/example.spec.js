@@ -2,7 +2,7 @@
 
 describe('Mi primer Contenedor de Pruebas', () => {
   // it o test da lo mismo cual de las 2 utilizes
-  test('Debe ser mayor a 18', () => {
+  test('debe ser mayor a 18', () => {
 
     // ETAPA DE PREPARACIÓN
     let value = 10;
